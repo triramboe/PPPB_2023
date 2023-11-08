@@ -8,7 +8,7 @@
     android:padding="10dp">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_student"
+        android:id="@+id/rvFruits"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

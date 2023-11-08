@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         with(binding){
-            rvStudent.apply {
+            rvFruits.apply {
                 adapter = adapterFruits
                 layoutManager = LinearLayoutManager(this@MainActivity)
             }
