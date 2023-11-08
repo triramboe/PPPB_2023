@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+    android:id="@+id/imgIconFruit"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/namrFruits"
+        android:text="Fruits Name"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/binomialName"
+        android:text="Binomial Name"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#777777"
+            android:textSize="16sp"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fruitsGenus"
+        android:text="Fruits Genus"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#777777"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</LinearLayout>
