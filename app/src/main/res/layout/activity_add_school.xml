@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Tambah Data Sekolah"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:fontFamily="@font/poppins_extrabold"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="School Name:"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/editTextSchoolName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="Enter school name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NPSN:"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/editTextNPSN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="Enter NPSN"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat:"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="Enter Alamat"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kab / Kota:"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/editTextKabKota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="Enter Alamat"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Provinsi:"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/editTextProvinsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="Enter Alamat"/>
+
+
+</LinearLayout>

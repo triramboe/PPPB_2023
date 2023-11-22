@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailSekolah"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailSekolahTitle"
+        android:text="SMP N 2 Berbah"
+        android:fontFamily="@font/poppins_extrabold"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NPSN:"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <TextView
+        android:id="@+id/editTextNPSN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text= "NPSN"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Alamat:"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <TextView
+        android:id="@+id/editTextAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text= "Alamat"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kab / Kota:"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <TextView
+        android:id="@+id/editTextKabKota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text= "Kabupaten/Kota"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Provinsi:"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <TextView
+        android:id="@+id/editTextProvinsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text= "Provinsi"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Kembali"
+            android:layout_weight="1"
+            android:id="@+id/backBtn"
+            android:textSize="17sp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bg_btn"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Hapus"
+            android:id="@+id/addDeleteBtn"
+            android:textSize="17sp"
+            android:layout_marginStart="10dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bg_btn"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
