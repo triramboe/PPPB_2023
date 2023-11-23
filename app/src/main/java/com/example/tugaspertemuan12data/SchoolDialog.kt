@@ -36,7 +36,8 @@ class SchoolDialog (private val activity: MainActivity, private val school: Scho
 
                 setPositiveButton("Edit"){
                         dialog, which ->
-                    update(School(school = binding.editTextSchoolName.text.toString(),
+                    update(School(id = school.id,
+                        school = binding.editTextSchoolName.text.toString(),
                         npsn = binding.editTextNPSN.text.toString(),
                         alamat = binding.editTextAlamat.text.toString(),
                         kabupaten_kota = binding.editTextKabKota.text.toString(),
