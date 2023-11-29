@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
                         documentReference.get("nama").toString(),
                         documentReference.get("npsn").toString(),
                         documentReference.get("alamat").toString(),
-                        documentReference.get("kabupaten_provinsi").toString(),
+                        documentReference.get("kabupaten_kota").toString(),
                         documentReference.get("provinsi").toString(),
                     )
                 )
